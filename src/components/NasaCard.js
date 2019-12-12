@@ -7,10 +7,12 @@ const NasaCard = props => {
 
  return (
    <div className="photo-card">
-     <h2>Photo Title: {title}</h2>
-     <img className="image" src={image} alt="Nasa pic of the day" />
-     <p>Photo Description: {exp}</p>
-     <p>Date: {date}</p>
+    <h2>Photo Title: {title}</h2>
+    <div className="image-container">
+      <img className="image" src={image} alt="Nasa pic of the day"  />
+      <p className="description" >Photo Description: {exp}</p>
+      <p className="date" >Date: {date}</p>
+    </div>
    </div>
  );
 }
