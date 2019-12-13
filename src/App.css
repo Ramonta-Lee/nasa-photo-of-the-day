@@ -1,3 +1,7 @@
+
+
+
+
 .App {
   text-align: center;
 
@@ -33,29 +37,6 @@
   }
 }
 
-.image-container{
-  position: relative;
-  text-align: center;
-  
-}
 
-.description{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5rem;
-  color: burlywood;
-}
-
-.date{
-  position: absolute;
-  bottom: 8px;
-  left: 200px;
-}
-
-.image{
-  width: 90%;
-}
 
 
